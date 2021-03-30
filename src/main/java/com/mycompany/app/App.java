@@ -17,6 +17,12 @@ public class App
     private void foo() throws Exception {
         bar("DES"); // this should create a warning
     }
+    
+    private void foo2() throws Exception {
+        if ("A" == "B") {
+            bar("DES"); // this should create a warning
+        }
+    }
 
     private void bar(String s) throws Exception
     {
