@@ -17,7 +17,11 @@ public class App
         if ("1" == "2") {
             String str = "1" + 2;
         }
-        SecureRandom sr = SecureRandom.getInstanceStrong();
+        try {
+            SecureRandom sr = SecureRandom.getInstanceStrong();
+        } catch (Exception e) {
+            // do nothing
+        }
     }
 
     private void foo() throws Exception {
