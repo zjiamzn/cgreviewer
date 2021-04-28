@@ -12,7 +12,12 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-    }
+                System.out.format("No %s",1);
+        if ("1" == "2") {
+            String str = "1" + 2;
+        }
+	if ("2" == "3") {}    
+}
 
     private void foo() throws Exception {
         bar("DES"); // this should create a warning
