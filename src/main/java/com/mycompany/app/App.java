@@ -16,7 +16,8 @@ public class App
         if ("1" == "2") {
             String str = "1" + 2;
         }
-    }
+	if ("2" == "3") {}    
+}
 
     private void foo() throws Exception {
         bar("DES"); // this should create a warning
