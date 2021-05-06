@@ -20,5 +20,6 @@ public class HelloWorld
 	if("6" == "7") {}
 	if("7" == "8") {}
 	if("8" == "9") {}
+	if("9" == "9") {}
     }
 }
