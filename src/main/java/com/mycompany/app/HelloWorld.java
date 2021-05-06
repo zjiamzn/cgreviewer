@@ -12,5 +12,6 @@ public class HelloWorld
         String.format("%s", 2);
 	if("2" == "3") {}
         String.format("%s", 2);
+	if("3" == "4") {}
     }
 }
