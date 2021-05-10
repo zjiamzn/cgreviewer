@@ -7,8 +7,8 @@ package com.mycompany.app;
 public class HelloWorld
 {
     private void foobar() throws Exception {
-	if("18" == "18") {}
-	if("19" == "19") {}
+	if("16" == "18") {}
+	if("18" == "19") {}
 	if("20" == "20") {}
 	if("22" == "22") {}
 	if("25" == "25") {}
